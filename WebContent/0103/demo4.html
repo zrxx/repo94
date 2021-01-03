@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+img {
+	width: 300px;
+	height:150px;
+	display: inline;
+
+	/**
+	block 块级元素               可设置高宽
+	inline 行级元素               不可设置高宽
+	inline-block 行内块       可设置高宽
+	
+	visibility：hidden  不可见，但是保留大小，不脱离文档流
+	
+	*/
+}
+
+#s1 {
+	width: 300px;
+	height:500px;
+	display: inline-block;
+	background: green
+}
+</style>
+</head>
+<body>
+	<span>普通文本标签用于设置文字样式</span>
+	<img alt="" src="../pics/beijing.png">
+	<span id=s1>inline-block 行内块</span>
+	<span>display用户控制元素显示类型</span>
+
+	<ol>
+		<li>红色</li>
+		<li>绿色</li>
+		<li>蓝色</li>
+	</ol>
+</body>
+</html>
